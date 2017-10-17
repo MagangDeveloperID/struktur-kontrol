@@ -159,3 +159,21 @@ switch ($favcolor) {
         echo "Your favorite color is neither red, blue, or green";
 }
 ```
+
+**7. Foreach**
+
+Perulangan foreach merupakan perulangan khusus untuk pembacaan nilai array.
+* Sintaks foreach
+```php
+foreach ($nama_array as $value) {
+    statement (...$value...)
+}
+```
+* Contoh Penggunaan Foreach
+```php
+$nama = array("Rika","Tri","Sukma","Rina","Sari");
+foreach ($nama as $val) {
+    echo "$val";
+    echo "<br>";
+}
+```
