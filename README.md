@@ -11,7 +11,7 @@ if (kondisi) {
   statement;
 }
 ```
-
+Contoh penggunaan pernyataan IF :
 ```contoh penggunaan pernyataan IF :
 <?php
 $nilai = 80;
