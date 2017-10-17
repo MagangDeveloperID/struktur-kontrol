@@ -6,7 +6,7 @@ PHP melakukan eksekusi perintah mulai dari baris pertama kemudian ke baris berik
 * Pengulangan (Iteration)
 
 # Macam-macam struktur kontrol
-1. IF
+**1. IF**
 
 IF merupakan struktur kontrol percabangan yang hanya memiliki satu kondisi. Jika pernyataan benar (sesuai) maka perintah dijalankan, sedangkan jika pernyataan salah (tidak sesuai) maka perintah di abaikan. 
 * Sintaks struktur IF :
@@ -29,7 +29,7 @@ if ($nilai > 75) {
 ?>
 ```
 
-2. IF Else
+**2. IF Else**
 
 Kontrol struktur Else merupakan pelengkap dari kontrol struktur IF, digunakan untuk memberikan alternatif jawaban benar atau salah. Pernyataan pada bagian Else akan dijalankan apabila pernyataan pada bagian IF bernilai salah.
 
@@ -59,7 +59,7 @@ if ($t<"20") {
 ?>
 ```
 
-3. While
+**3. While**
 While merupakan struktur perulangan yang berfungsi melakukan tugas berulang selama banyaknya pernyataan bernilai benar (terpenuhi). 
 * Sintaks struktur While :
 ```sintaks while
