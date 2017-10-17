@@ -182,7 +182,7 @@ foreach ($nama as $val) {
 Do while merupakan perulangan yang dilakukan dalam blok kode minimal sekali, dan diulangi lagi jika pernyataan benar(true)
 
 * Sintaks Do While
-```sintaks
+```php
 do {
     pernyataan;
     pernyataan;
