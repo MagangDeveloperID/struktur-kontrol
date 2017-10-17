@@ -10,7 +10,7 @@ PHP melakukan eksekusi perintah mulai dari baris pertama kemudian ke baris berik
 
 IF merupakan struktur kontrol percabangan yang hanya memiliki satu kondisi. Jika pernyataan benar (sesuai) maka perintah dijalankan, sedangkan jika pernyataan salah (tidak sesuai) maka perintah di abaikan. 
 * Sintaks struktur IF :
-```pernyataan if
+```php
 if (kondisi) {
   statement;
 } else  {
@@ -33,7 +33,7 @@ if ($nilai > 75) {
 Kontrol struktur Else merupakan pelengkap dari kontrol struktur IF, digunakan untuk memberikan alternatif jawaban benar atau salah. Pernyataan pada bagian Else akan dijalankan apabila pernyataan pada bagian IF bernilai salah.
 
 * Sintaks IF Else:
-```pernyataan if else
+```php
 If (kondisi) {
     Pernyataan 1;
     Pernyataan 2;
@@ -76,7 +76,7 @@ If (kondisi){
 }
 ```
 * Contoh Penggunaan If ElseIf Else
-```<?php
+```php
 $t=date("H");
 
 if ($t<"10") {
@@ -92,14 +92,14 @@ if ($t<"10") {
 
 While merupakan struktur perulangan yang berfungsi melakukan tugas berulang selama banyaknya pernyataan bernilai benar (terpenuhi). 
 * Sintaks struktur While :
-```sintaks while
+```php
 while (kondisi) {
   statement1;
   statement2;
 }
 ```
 * Contoh Penggunaan pernyataan while :
-```<?php
+```php
 $i=1;
 while ($i <= 10)
 {
@@ -113,13 +113,13 @@ while ($i <= 10)
 Merupakan perulangan yang dilakukan dalam baris kode dengan batasan
 jumlah tertentu.
 * Sintaks For : 
-```<?php
+```php
 for (start; condition; increament) {
     statements;
 }
 ```
 * Penggunaan For : 
-```<?php
+```php
 for ($x=0; $x<=10; $x++){
     echo "The number is : $x <br>";
 }
@@ -128,7 +128,7 @@ for ($x=0; $x<=10; $x++){
 
 Switch merupakan bentuk struktur kontrol yang dapat menyederhanakan bentuk dari if.
 * Sintaks Switch :
-```Sintaks:
+```php
 Switch(variabel){
     Case nilai-1:
     Pernyataan-1;
@@ -144,7 +144,7 @@ Switch(variabel){
 }
 ```
 * Penggunaan Switch:
-```<?php
+```php
 $favcolor="red";
 switch ($favcolor) 
 {
