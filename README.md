@@ -137,7 +137,7 @@ for ($x=0; $x<=10; $x++){
 }
 ?>
 ```
-6. Switch
+**6. Switch**
 
 Switch merupakan bentuk struktur kontrol yang dapat menyederhanakan bentuk dari if.
 * Sintaks Switch :
