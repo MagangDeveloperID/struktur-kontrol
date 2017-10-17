@@ -4,17 +4,17 @@ Struktur Kontrol atau Control Structure merupakan suatu algoritma program yang m
 # Macam-macam struktur kontrol
 1. IF
 IF merupakan struktur kontrol percabangan yang hanya memiliki satu kondisi. Jika pernyataan benar (sesuai) maka perintah dijalankan, sedangkan jika pernyataan salah (tidak sesuai) maka perintah di abaikan. Berikut sintaks struktur IF :
-if (kondisi) {
+```if (kondisi) {
   statement;
 } else  {
   statement;
-}
+}```
 
 contoh penggunaan pernyataan IF :
-<?php
+```<?php
 $nilai = 80;
 if ($nilai > 75) {
 	echo 'Lulus';
 } else {
 	echo 'Tidak Lulus';
-}
+}```
