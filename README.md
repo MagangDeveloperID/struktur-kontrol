@@ -18,15 +18,14 @@ if (kondisi) {
 }
 ```
 * Contoh penggunaan pernyataan IF :
-```contoh penggunaan pernyataan IF :
-<?php
+
+```<?php
 $nilai = 80;
 if ($nilai > 75) {
-	echo 'Lulus';
+    echo 'Lulus';
 } else {
-	echo 'Tidak Lulus';
+    echo 'Tidak Lulus';
 }
-?>
 ```
 
 **2. IF Else**
@@ -47,24 +46,21 @@ If (kondisi) {
 ```
 
 * Contoh Penggunaan : 
-```penggunaan if else
-<?php
+```<?php
 $t=date("H");
 
 if ($t<"20") {
- echo "Have a Good Day!";
+    echo "Have a Good Day!";
 } else {
- echo "Have a Good Night!";
+    echo "Have a Good Night!";
 }
-?>
 ```
 
 **3. If ElseIf Else**
 
 Nilai hasil suatu ekspresi bisa jadi bukan merupakan dua nilai, benar atau salah, tetapi bisa banyak nilai.
 * Sintaks If ElseIf Else
-```sintaks if ElseIf Else
-<?php
+```<?php
 If (kondisi){
     Pernyataan1;
     Pernyataan2;
@@ -78,21 +74,18 @@ If (kondisi){
     Pernyataan y;
     ....
 }
-?>
 ```
 * Contoh Penggunaan If ElseIf Else
-```penggunaan If ElseIf ELse
-<?php
+```<?php
 $t=date("H");
 
 if ($t<"10") {
- echo "Have a Good Morning!";
+    echo "Have a Good Morning!";
 } elseif ($t<"20") {
- echo "Have a Good Day!";
+    echo "Have a Good Day!";
 } else {
- echo "Have a God Night!";
+    echo "Have a God Night!";
 }
-?>
 ```
 
 **4. While**
@@ -106,15 +99,13 @@ while (kondisi) {
 }
 ```
 * Contoh Penggunaan pernyataan while :
-```contoh penggunaan
-<?php
+```<?php
 $i=1;
 while ($i <= 10)
 {
-  echo "The Number Is $i <br>";
-  $i++;
+    echo "The Number Is $i <br>";
+    $i++;
 }
-?>
 ```
 
 **5. For**
@@ -122,20 +113,16 @@ while ($i <= 10)
 Merupakan perulangan yang dilakukan dalam baris kode dengan batasan
 jumlah tertentu.
 * Sintaks For : 
-```sintaks for
-<?php
+```<?php
 for (start; condition; increament) {
     statements;
 }
-?>
 ```
 * Penggunaan For : 
-```contoh penggunaan for
-<?php
+```<?php
 for ($x=0; $x<=10; $x++){
     echo "The number is : $x <br>";
 }
-?>
 ```
 **6. Switch**
 
@@ -144,34 +131,33 @@ Switch merupakan bentuk struktur kontrol yang dapat menyederhanakan bentuk dari 
 ```Sintaks:
 Switch(variabel){
     Case nilai-1:
-        Pernyataan-1;
-        Break;
+    Pernyataan-1;
+    Break;
     Case nilai-2:
-        Pernyataan-2;
-        Break;
+    Pernyataan-2;
+    Break;
     Case nilai-n:
-        Pernyataan-n;
-        Break;
+    Pernyataan-n;
+    Break;
     Default:
-        Pernyataan_default;
+    Pernyataan_default;
 }
 ```
 * Penggunaan Switch:
-```penggunaan switch
-<?php
+```<?php
 $favcolor="red";
-switch ($favcolor) {
-	case 'red':
-	    echo "Your favorite color is red";		
-	    break;
-	case 'blue';
-	    echo "Your favorite color is blue";
-	    break;
-	case 'green';
-	    echo "Your favorite color is green";
-	    break;
-	default:
-	    echo "Your favorite color is neither red, blue, or green";
+switch ($favcolor) 
+{
+    case 'red':
+    echo "Your favorite color is red";		
+    break;
+    case 'blue';
+    echo "Your favorite color is blue";
+    break;
+    case 'green';
+    echo "Your favorite color is green";
+    break;
+    default:
+    echo "Your favorite color is neither red, blue, or green";
 }
-?>
 ```
