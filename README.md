@@ -59,7 +59,43 @@ if ($t<"20") {
 ?>
 ```
 
-**3. While**
+**3. If ElseIf Else**
+
+Nilai hasil suatu ekspresi bisa jadi bukan merupakan dua nilai, benar atau salah, tetapi bisa bnyak nilai.
+* Sintag If ElseIf Else
+```sitag if ElseIf Else
+<?php
+If (kondisi){
+    Pernyataan1;
+    Pernyataan2;
+    ....
+}elseif(kondisi){
+    Pernyataan a;
+    Pernyataan b;
+    ....
+}else{
+    Pernyataan x;
+    Pernyataan y;
+    ....
+}
+?>
+```
+* Contoh Penggunaan If ElseIf Else
+```penggunaan If ElseIf ELse
+<?php
+$t=date("H");
+
+if ($t<"10") {
+ echo "Have a Good Morning!";
+} elseif ($t<"20") {
+ echo "Have a Good Day!";
+} else {
+ echo "Have a God Night!";
+}
+?>
+```
+
+**4. While**
 
 While merupakan struktur perulangan yang berfungsi melakukan tugas berulang selama banyaknya pernyataan bernilai benar (terpenuhi). 
 * Sintaks struktur While :
@@ -81,7 +117,7 @@ while ($i <= 10)
 ?>
 ```
 
-**4. For**
+**5. For**
 
 Merupakan perulangan yang dilakukan dalam baris kode dengan batasan
 jumlah tertentu.
