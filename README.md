@@ -13,7 +13,7 @@ IF merupakan struktur kontrol percabangan yang hanya memiliki satu kondisi. Jika
 ```php
 if (kondisi) {
   statement;
-} else  {
+} else {
   statement;
 }
 ```
@@ -47,9 +47,10 @@ If (kondisi) {
 
 * Contoh Penggunaan : 
 ```php
-$t=date("H");
+$t = date("H");
 
-if ($t<"20") {
+if ($t < "20") 
+{
     echo "Have a Good Day!";
 } else {
     echo "Have a Good Night!";
@@ -77,7 +78,7 @@ If (kondisi){
 ```
 * Contoh Penggunaan If ElseIf Else
 ```php
-$t=date("H");
+$t = date("H");
 
 if ($t<"10") {
     echo "Have a Good Morning!";
@@ -100,7 +101,7 @@ while (kondisi) {
 ```
 * Contoh Penggunaan pernyataan while :
 ```php
-$i=1;
+$i = 1;
 while ($i <= 10)
 {
     echo "The Number Is $i <br>";
@@ -120,7 +121,7 @@ for (start; condition; increament) {
 ```
 * Penggunaan For : 
 ```php
-for ($x=0; $x<=10; $x++){
+for ($x = 0; $x <= 10; $x++){
     echo "The number is : $x <br>";
 }
 ```
@@ -129,35 +130,34 @@ for ($x=0; $x<=10; $x++){
 Switch merupakan bentuk struktur kontrol yang dapat menyederhanakan bentuk dari if.
 * Sintaks Switch :
 ```php
-Switch(variabel){
+Switch (variabel) {
     Case nilai-1:
-    Pernyataan-1;
-    Break;
+        Pernyataan-1;
+        Break;
     Case nilai-2:
-    Pernyataan-2;
-    Break;
+        Pernyataan-2;
+        Break;
     Case nilai-n:
-    Pernyataan-n;
-    Break;
+        Pernyataan-n;
+        Break;
     Default:
-    Pernyataan_default;
+       Pernyataan_default;
 }
 ```
 * Penggunaan Switch:
 ```php
-$favcolor="red";
-switch ($favcolor) 
-{
+$favcolor = "red";
+switch ($favcolor) {
     case 'red':
-    echo "Your favorite color is red";		
-    break;
+        echo "Your favorite color is red";		
+        break;
     case 'blue';
-    echo "Your favorite color is blue";
-    break;
+        echo "Your favorite color is blue";
+        break;
     case 'green';
-    echo "Your favorite color is green";
-    break;
+        echo "Your favorite color is green";
+        break;
     default:
-    echo "Your favorite color is neither red, blue, or green";
+        echo "Your favorite color is neither red, blue, or green";
 }
 ```
