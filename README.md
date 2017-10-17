@@ -34,13 +34,13 @@ Kontrol struktur Else merupakan pelengkap dari kontrol struktur IF, digunakan un
 
 * Sintaks IF Else:
 ```php
-If (kondisi) {
-    Pernyataan 1;
-    Pernyataan 2;
+if (kondisi) {
+    pernyataan 1;
+    pernyataan 2;
     .....
 } else {
-    Pernyataan a;
-    Pernyataan b;
+    pernyataan a;
+    pernyataan b;
     .....
 }
 ```
@@ -61,17 +61,17 @@ if ($t < "20") {
 Nilai hasil suatu ekspresi bisa jadi bukan merupakan dua nilai, benar atau salah, tetapi bisa banyak nilai.
 * Sintaks If ElseIf Else
 ```php
-If (kondisi) {
-    Pernyataan1;
-    Pernyataan2;
+if (kondisi) {
+    pernyataan1;
+    pernyataan2;
     ....
-} elseif(kondisi) {
-    Pernyataan a;
-    Pernyataan b;
+} elseif (kondisi) {
+    pernyataan a;
+    pernyataan b;
     ....
 } else {
-    Pernyataan x;
-    Pernyataan y;
+    pernyataan x;
+    pernyataan y;
     ....
 }
 ```
@@ -79,9 +79,9 @@ If (kondisi) {
 ```php
 $t = date("H");
 
-if ($t<"10") {
+if ($t < "10") {
     echo "Have a Good Morning!";
-} elseif ($t<"20") {
+} elseif ($t < "20") {
     echo "Have a Good Day!";
 } else {
     echo "Have a God Night!";
@@ -128,18 +128,18 @@ for ($x = 0; $x <= 10; $x++) {
 Switch merupakan bentuk struktur kontrol yang dapat menyederhanakan bentuk dari if.
 * Sintaks Switch :
 ```php
-Switch (variabel) {
-    Case nilai-1:
-        Pernyataan-1;
-        Break;
-    Case nilai-2:
-        Pernyataan-2;
-        Break;
-    Case nilai-n:
-        Pernyataan-n;
-        Break;
-    Default:
-       Pernyataan_default;
+switch (variabel) {
+    case nilai-1:
+        pernyataan-1;
+        break;
+    case nilai-2:
+        pernyataan-2;
+        break;
+    case nilai-n:
+        pernyataan-n;
+        break;
+    default:
+       pernyataan_default;
 }
 ```
 * Penggunaan Switch:
