@@ -29,7 +29,8 @@ if ($nilai > 75) {
 ?>
 ```
 
-2. IF Else
+2. **IF Else**
+
 Kontrol struktur Else merupakan pelengkap dari kontrol struktur IF, digunakan untuk memberikan alternatif jawaban benar atau salah. Pernyataan pada bagian Else akan dijalankan apabila pernyataan pada bagian IF bernilai salah.
 
 * Sintag : 
