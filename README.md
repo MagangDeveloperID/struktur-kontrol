@@ -61,9 +61,9 @@ if ($t<"20") {
 
 **3. If ElseIf Else**
 
-Nilai hasil suatu ekspresi bisa jadi bukan merupakan dua nilai, benar atau salah, tetapi bisa bnyak nilai.
-* Sintag If ElseIf Else
-```sitag if ElseIf Else
+Nilai hasil suatu ekspresi bisa jadi bukan merupakan dua nilai, benar atau salah, tetapi bisa banyak nilai.
+* Sintaks If ElseIf Else
+```sintaks if ElseIf Else
 <?php
 If (kondisi){
     Pernyataan1;
@@ -121,8 +121,8 @@ while ($i <= 10)
 
 Merupakan perulangan yang dilakukan dalam baris kode dengan batasan
 jumlah tertentu.
-* Sintag For : 
-```sitag for
+* Sintaks For : 
+```sintaks for
 <?php
 for (start; condition; increament) {
     statements;
