@@ -179,6 +179,7 @@ foreach ($nama as $val) {
 ```
 
 **8. Do While**
+
 Do while merupakan perulangan yang dilakukan dalam blok kode minimal sekali, dan diulangi lagi jika pernyataan benar(true)
 
 * Sintaks Do While
