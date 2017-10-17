@@ -60,6 +60,7 @@ if ($t<"20") {
 ```
 
 **3. While**
+
 While merupakan struktur perulangan yang berfungsi melakukan tugas berulang selama banyaknya pernyataan bernilai benar (terpenuhi). 
 * Sintaks struktur While :
 ```sintaks while
@@ -76,6 +77,27 @@ while ($i <= 10)
 {
   echo "The Number Is $i <br>";
   $i++;
+}
+?>
+```
+
+**4. For**
+
+Merupakan perulangan yang dilakukan dalam baris kode dengan batasan
+jumlah tertentu.
+* Sintag For : 
+```sitag for
+<?php
+for (start; condition; increament) {
+    statements;
+}
+?>
+```
+* Penggunaan For : 
+```contoh penggunaan for
+<?php
+for ($x=0; $x<=10; $x++){
+    echo "The number is : $x <br>";
 }
 ?>
 ```
