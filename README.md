@@ -38,7 +38,7 @@ If (kondisi) {
     Pernyataan 1;
     Pernyataan 2;
     .....
-}else{
+} else {
     Pernyataan a;
     Pernyataan b;
     .....
@@ -49,8 +49,7 @@ If (kondisi) {
 ```php
 $t = date("H");
 
-if ($t < "20") 
-{
+if ($t < "20") {
     echo "Have a Good Day!";
 } else {
     echo "Have a Good Night!";
@@ -62,15 +61,15 @@ if ($t < "20")
 Nilai hasil suatu ekspresi bisa jadi bukan merupakan dua nilai, benar atau salah, tetapi bisa banyak nilai.
 * Sintaks If ElseIf Else
 ```php
-If (kondisi){
+If (kondisi) {
     Pernyataan1;
     Pernyataan2;
     ....
-}elseif(kondisi){
+} elseif(kondisi) {
     Pernyataan a;
     Pernyataan b;
     ....
-}else{
+} else {
     Pernyataan x;
     Pernyataan y;
     ....
@@ -102,8 +101,7 @@ while (kondisi) {
 * Contoh Penggunaan pernyataan while :
 ```php
 $i = 1;
-while ($i <= 10)
-{
+while ($i <= 10) {
     echo "The Number Is $i <br>";
     $i++;
 }
@@ -121,7 +119,7 @@ for (start; condition; increament) {
 ```
 * Penggunaan For : 
 ```php
-for ($x = 0; $x <= 10; $x++){
+for ($x = 0; $x <= 10; $x++) {
     echo "The number is : $x <br>";
 }
 ```
