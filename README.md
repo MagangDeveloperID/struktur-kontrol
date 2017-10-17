@@ -177,3 +177,22 @@ foreach ($nama as $val) {
     echo "<br>";
 }
 ```
+
+**8. Do While **
+Do while merupakan perulangan yang dilakukan dalam blok kode minimal sekali, dan diulangi lagi jika pernyataan benar(true)
+
+* Sintaks Do While
+```sintaks
+do {
+    pernyataan;
+    pernyataan;
+} while (kondisi);
+```
+*Contoh Penggunaan :
+```php
+$x = 4;
+do {
+	echo "The number is : $x <br>";
+  $x++;
+} while ($x <= 5);
+```
