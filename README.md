@@ -60,6 +60,8 @@ if ($t<"20") {
 ```
 
 **3. IF ElseIF Else**
+
+Nilai hasil suatu ekspresi bisa jadi bukan merupakan dua nilai, benar atau salah, tetapi bisa banyak nilai.
 * Sintag :
 ```pernyataan if elseif else
 if (kondisi) {
@@ -83,7 +85,7 @@ $t=date("H");
 if ($t<"10") {
  echo "Have a Good Morning!";
 } elseif ($t<"20") {
- echo "have a Good Day!";
+ echo "Have a Good Day!";
 } else {
  echo "Have a Good Night!";
 }
