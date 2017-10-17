@@ -7,21 +7,33 @@ PHP melakukan eksekusi perintah mulai dari baris pertama kemudian ke baris berik
 
 # Macam-macam struktur kontrol
 1. IF
+
 IF merupakan struktur kontrol percabangan yang hanya memiliki satu kondisi. Jika pernyataan benar (sesuai) maka perintah dijalankan, sedangkan jika pernyataan salah (tidak sesuai) maka perintah di abaikan. Berikut sintaks struktur IF :
-```if (kondisi) {
+```pernyataan if
+if (kondisi) {
   statement;
+@Trisantiana
+Commit changes
+
+Update README.md
+
+Add an optional extended description…
+  Commit directly to the master branch.
+  Create a new branch for this commit and start a pull reque
 } else  {
   statement;
-}```
-
-contoh penggunaan pernyataan IF :
-```<?php
+}
+```
+Contoh penggunaan pernyataan IF :
+```contoh penggunaan pernyataan IF :
+<?php
 $nilai = 80;
 if ($nilai > 75) {
 	echo 'Lulus';
 } else {
 	echo 'Tidak Lulus';
 }
+
 ?>```
 
 2. IF Else
@@ -50,3 +62,5 @@ if ($t<"20") {
 }
 ?>
 ```
+
+
