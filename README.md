@@ -6,9 +6,10 @@ PHP melakukan eksekusi perintah mulai dari baris pertama kemudian ke baris berik
 * Pengulangan (Iteration)
 
 # Macam-macam struktur kontrol
-1. IF
+1. **IF**
 
-IF merupakan struktur kontrol percabangan yang hanya memiliki satu kondisi. Jika pernyataan benar (sesuai) maka perintah dijalankan, sedangkan jika pernyataan salah (tidak sesuai) maka perintah di abaikan. Berikut sintaks struktur IF :
+IF merupakan struktur kontrol percabangan yang hanya memiliki satu kondisi. Jika pernyataan benar (sesuai) maka perintah dijalankan, sedangkan jika pernyataan salah (tidak sesuai) maka perintah di abaikan. 
+* Sintaks struktur IF :
 ```pernyataan if
 if (kondisi) {
   statement;
@@ -16,7 +17,7 @@ if (kondisi) {
   statement;
 }
 ```
-Contoh penggunaan pernyataan IF :
+* Contoh penggunaan pernyataan IF :
 ```contoh penggunaan pernyataan IF :
 <?php
 $nilai = 80;
