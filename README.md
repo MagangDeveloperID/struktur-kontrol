@@ -19,7 +19,7 @@ if (kondisi) {
 ```
 * Contoh penggunaan pernyataan IF :
 
-```<?php
+```php
 $nilai = 80;
 if ($nilai > 75) {
     echo 'Lulus';
@@ -46,7 +46,7 @@ If (kondisi) {
 ```
 
 * Contoh Penggunaan : 
-```<?php
+```php
 $t=date("H");
 
 if ($t<"20") {
@@ -60,7 +60,7 @@ if ($t<"20") {
 
 Nilai hasil suatu ekspresi bisa jadi bukan merupakan dua nilai, benar atau salah, tetapi bisa banyak nilai.
 * Sintaks If ElseIf Else
-```<?php
+```php
 If (kondisi){
     Pernyataan1;
     Pernyataan2;
