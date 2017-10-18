@@ -11,7 +11,7 @@
     $nama = array(1 => "Rika", "Tri", "Ana", "Fatma");
 
     foreach ($nama as $key => $value) {
-        echo "<option>$key . $value</option>";
+        echo "<option> $key . $value </option>";
     }
     ?>
 </select>
