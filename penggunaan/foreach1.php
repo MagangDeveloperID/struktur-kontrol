@@ -9,7 +9,7 @@
     $tumbuhan = array('anggrek','tulip','sepatu', 'melati');
 
     foreach ($tumbuhan as $key => $bunga) {
-    echo " <option> ini bunga  $bunga </option>";
+        echo " <option> ini bunga  $bunga </option>";
     }
 ?>
 </select>
