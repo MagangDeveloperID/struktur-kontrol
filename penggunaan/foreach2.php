@@ -9,7 +9,6 @@
     $hari = ['senin', 'selasa', 'rabu', 'kamis', 'jumat', 'sabtu', 'Minggu'];
 
     foreach ($hari as $key => $value) {
-
         echo " <option> hari $value </option>";
     }
 ?>
